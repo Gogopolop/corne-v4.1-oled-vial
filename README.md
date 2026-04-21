@@ -59,3 +59,4 @@ The animation logic and sprite data are located in the [`source/oled.c`](source/
    git clone https://github.com/vial-kb/vial-qmk.git
    cd vial-qmk
    make git-submodule
+https://github.com/user-attachments/assets/985150c1-0d78-4ca9-a347-4471919b8457
