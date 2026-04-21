@@ -9,11 +9,6 @@
 
 This is a pre-built firmware package and a complete set of source files for the **Corne V4.1** split keyboard.
 
-## 📸 OLED Preview
-
-![Dancing Banana on Corne V4.1 OLED](./images/banana-oled-preview.jpg)
-
-*What you'll see on the left display: current layer, active modifier, and the dancing banana animation.*
 
 ## ✨ Features
 
@@ -30,24 +25,23 @@ This is a pre-built firmware package and a complete set of source files for the 
 
 ## 📦 Pre-built Firmware (Easy Install)
 
-1. Go to the **firmware** folder at the top of this repository.
-2. Click on the `.uf2` file, then click the **Download** button (or **Raw** button).
-3. Disconnect the right half (unplug TRRS cable).
-4. Double-tap the **RESET** button on the left half.
-5. A USB drive named `RPI-RP2` will appear on your computer.
-6. Drag and drop the downloaded `.uf2` file onto that drive.
-7. The keyboard will reboot automatically. Reconnect the right half.
+1. Download the latest `.uf2` file from the [`/firmware`](firmware/) folder.
+2. Disconnect the right half (unplug TRRS cable).
+3. Double-tap the **RESET** button on the left half.
+4. A USB drive named `RPI-RP2` will appear on your computer.
+5. Drag and drop the `.uf2` file onto that drive.
+6. The keyboard will reboot automatically. Reconnect the right half.
 
 ## ⌨️ Loading Layout into VIAL
 
 1. Open [VIAL](https://get.vial.today/) (Desktop or Web).
 2. Go to **File → Load Keymap**.
-3. Navigate to the **source** folder of this repository and select the `vial.json` file.
+3. Select the `vial.json` file from the [`/source`](source/) folder in this repository.
 4. All 7 layers and layout mapping will be applied automatically.
 
 ## 🛠 How to Replace the Animation with Your Own
 
-The animation logic and sprite data are located in the `source/oled.c` file. To add your own custom animation:
+The animation logic and sprite data are located in the [`source/oled.c`](source/oled.c) file. To add your own custom animation:
 
 1. Convert your image/frames to byte arrays using [image2cpp](https://javl.github.io/image2cpp/) or a similar tool.
 2. Replace the arrays `banana_right`, `banana_center`, and `banana_left` inside `oled.c` with your generated code.
