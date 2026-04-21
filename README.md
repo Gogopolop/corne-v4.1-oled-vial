@@ -1,4 +1,4 @@
-# 🍌 Corne V4.1 Firmware with OLED and VIAL (Single Display Fix)
+# Corne V4.1 Firmware with OLED and VIAL (Single Display Fix)
 
 🌐 **Read this in:** [Русский 🇷🇺](./README_RU.md)
 
