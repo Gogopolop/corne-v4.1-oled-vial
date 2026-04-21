@@ -41,7 +41,7 @@ This is a pre-built firmware package and a complete set of source files for the 
 
 1. Open [VIAL](https://get.vial.today/) (Desktop or Web).
 2. Go to **File → Load Keymap**.
-3. Select the `vial.json` file from the [`/source`](source/) folder in this repository.
+3. Select the `vial.json` file from the [`/source`](corne-v4.1-oled-vial\source) folder in this repository.
 4. All 7 layers and layout mapping will be applied automatically.
 
 ## 🛠 How to Replace the Animation with Your Own
