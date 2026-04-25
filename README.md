@@ -1,7 +1,5 @@
 # Corne V4.1 Firmware with OLED and VIAL (Single Display Fix)
 
-🌐 **Read this in:** [Русский 🇷🇺](./README_RU.md)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![VIAL Enabled](https://img.shields.io/badge/VIAL-Enabled-blue)](https://get.vial.today/)
 
